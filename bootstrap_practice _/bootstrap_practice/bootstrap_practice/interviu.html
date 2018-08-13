@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tribuna Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css"/>
+
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="test.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="row">
+    <div id="header_wrap">
+        <div id="header-nav">
+            <a href="#" id="header_logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Comentarii</a></li>
+                    <li><a href="#">Interviu</a></li>
+                    <li><a href="#">Top politic</a></li>
+                    <li><a href="#">Omul săptămânii</a></li>
+                    <li><a href="#">Pasiuni</a></li>
+                    <li><a href="#">Life&amp;Style</a></li>
+                    <li><a href="#">Istoria partidelor</a></li>
+                </ul>
+            </nav>
+            <a href="#" id="header_msg"></a>
+            <div id="header_search">
+                <a href="" id="header_search_block_toggle"></a>
+                <div id="header_search_block">
+                    <input type="text" placeholder="Cautare"/>
+                </div>
+            </div>
+
+            <div id="header_langs">
+                <select class="selectpicker" onchange="location = this.options[this.selectedIndex].value;">
+                    <option value="#RO">RO</option>
+                    <option value="#RU">RU</option>
+                    <option value="#EN">EN</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div id="container">
+        <div id="maincolumn">
+
+            <div id="comentarii_block">
+                <h1 id="comentarii_block_header">Recente Interviuri</h1>
+                <div id="interviu_block_first">
+                    <div id="interviu_block_first_header">
+                        <a href="#">Mihai Severovan: Chișinăul are nevoie de profesioniști!</a>
+                        <span>24 mai 2015, 8:00</span>
+                    </div>
+                    <div id="interviu_block_first_text">În cadrul unui interviu acordat portalului TRIBUNA, Mihai
+                        Severovan, preşedinte al Asociaţiei Patronale a Serviciilor Publice din Republica Moldova, a
+                        vorbit de ce a decis să candideze independent la funcția de consilier în Consiliul Municipal ...
+                    </div>
+                    <img src="images/interviufirstimg.png"/>
+                    <div class="clear"></div>
+                </div>
+                <div id="comentarii_block_banner"></div>
+                <div id="interviu_block_list">
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+                    <div class="column">
+                        <img src="images/subnewsimg.png">
+                        <a href="#"><span>Filat: Extinderea anchetei în cazul BEM este una necesară</span></a>
+                    </div>
+
+                    <a href="#" id="comentarii_block_list_older">Articole mai vechi</a>
+                </div>
+            </div>
+            <div id="subslider_banner"><img src="images/subslidebanner.png"/></div>
+
+
+            <div id="weekomcomedit_column">
+
+                <div id="mainallnews">
+                    <span id="mainallnews_header">Top știri</span>
+                    <ul class="posts_list">
+                        <li>
+                            <div class="thumb">
+                                <a href="#" rel="nofollow"><img src="images/allnewsimg.png" alt=""/></a>
+                            </div>
+                            <div class="description">
+                                <a class="mainallnews_title" href="#" title="">Timofti: Preferăm UE, dar prezența Rusiei
+                                    se simte în țara noastră</a>
+                                <span class="postmetadata"><a href="" class="allnews_catname">Știri</a><span
+                                        class="allnews_datetime">25 mai 2015, 16:37</span></span>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <a href="#" rel="nofollow"><img src="images/allnewsimg.png" alt=""/></a>
+                            </div>
+                            <div class="description">
+                                <a class="mainallnews_title" href="#" title="">Timofti: Preferăm UE, dar prezența Rusiei
+                                    se simte în țara noastră</a>
+                                <span class="postmetadata"><a href="" class="allnews_catname">Știri</a><span
+                                        class="allnews_datetime">25 mai 2015, 16:37</span></span>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="maineditorial_column">
+                <div id="maineditorial">
+                    <span id="maineditorial_catname">editorial</span>
+                    <a href="#" id="maineditorial_title">Elefanții în prăvălia cu porțelan</a>
+                    <span id="maineditorial_text">Urmărind atent acțiunile politicienilor noștri, vreai nu vreai, ajungi la concluzia că sînt ca niște elefanți într-o prăvălie ...</span>
+                    <a href="#" id="maineditorial_more">Continuare</a>
+                </div>
+                <div id="subeditorial_banner"><img src="images/franzeluta.png"/></div>
+                <div id="main_poll"><img src="images/polls.png"/></div>
+                <div id="mainfacebook"><img src="images/facebook.png"/></div>
+            </div>
+        </div>
+
+        <div id="blogosfera_column">
+
+            <div id="politicaonline">
+                <div id="politicaonline_header">Politica online</div>
+                <div class="politicaonline_item">
+                    <div class="politicaonline_item_head">Partidul Nostru</div>
+                    <img class="politicaonline_item_img" src="images/politicaonlineimg.png"/>
+                    <div class="politicaonline_item_list">
+                        <ul>
+                            <li><a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor ...</a></li>
+                            <li><a href="#">(VIDEO) Bălţi, la 594 de ani! Imediat după alegeri, Renato Usatîi ...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="politicaonline_item">
+                    <div class="politicaonline_item_head">Partidul Nostru</div>
+                    <img class="politicaonline_item_img" src="images/politicaonlineimg.png"/>
+                    <div class="politicaonline_item_list">
+                        <ul>
+                            <li><a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor ...</a></li>
+                            <li><a href="#">(VIDEO) Bălţi, la 594 de ani! Imediat după alegeri, Renato Usatîi ...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="politicaonline_item">
+                    <div class="politicaonline_item_head">Partidul Nostru</div>
+                    <img class="politicaonline_item_img" src="images/politicaonlineimg.png"/>
+                    <div class="politicaonline_item_list">
+                        <ul>
+                            <li><a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor ...</a></li>
+                            <li><a href="#">(VIDEO) Bălţi, la 594 de ani! Imediat după alegeri, Renato Usatîi ...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="politicaonline_item">
+                    <div class="politicaonline_item_head">Partidul Nostru</div>
+                    <img class="politicaonline_item_img" src="images/politicaonlineimg.png"/>
+                    <div class="politicaonline_item_list">
+                        <ul>
+                            <li><a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor ...</a></li>
+                            <li><a href="#">(VIDEO) Bălţi, la 594 de ani! Imediat după alegeri, Renato Usatîi ...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="politicaonline_item">
+                    <div class="politicaonline_item_head">Partidul Nostru</div>
+                    <img class="politicaonline_item_img" src="images/politicaonlineimg.png"/>
+                    <div class="politicaonline_item_list">
+                        <ul>
+                            <li><a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor ...</a></li>
+                            <li><a href="#">(VIDEO) Bălţi, la 594 de ani! Imediat după alegeri, Renato Usatîi ...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="politicaonline_item">
+                    <div class="politicaonline_item_head">Partidul Nostru</div>
+                    <img class="politicaonline_item_img" src="images/politicaonlineimg.png"/>
+                    <div class="politicaonline_item_list">
+                        <ul>
+                            <li><a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor ...</a></li>
+                            <li><a href="#">(VIDEO) Bălţi, la 594 de ani! Imediat după alegeri, Renato Usatîi ...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="blogosfera">
+                <div id="blogosfera_header">Blogosfera</div>
+                <div class="blogosfera_item">
+                    <figure>
+                        <img src="images/blogosferaimg.png" alt=""/>
+                        <figcaption>Ilian Cașu</figcaption>
+                    </figure>
+                    <div class="blogosfera_item_list">
+                        <ul>
+                            <li><a href="#">Партия Ренато Усатого привлечет достижения научных центров для ...</a></li>
+                            <li><a href="#">Илиан Кашу: Мы покончим с грязью в Кишиневе раз и ...</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blogosfera_item">
+                    <figure>
+                        <img src="images/blogosferaimg.png" alt=""/>
+                        <figcaption>Ilian Cașu</figcaption>
+                    </figure>
+                    <div class="blogosfera_item_list">
+                        <ul>
+                            <li><a href="#">Партия Ренато Усатого привлечет достижения научных центров для ...</a></li>
+                            <li><a href="#">Илиан Кашу: Мы покончим с грязью в Кишиневе раз и ...</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+
+    </div>
+
+</div>
+<div class="row">
+    <footer>
+        <div id="footer_container">
+            <div id="footer_logosocial">
+                <a href="#" id="footer_logo"><img src="images/footer_logo.png"/></a>
+                <a href="#" id="footer_fb"><img src="images/footerfb.png"/></a>
+                <a href="#" id="footer_rss"><img src="images/footerrss.png"/></a>
+            </div>
+            <div id="footernavcopy">
+                <ul>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                    <li><a href="#">Știri</a></li>
+                </ul>
+                <div id="footer_copyright"><span
+                        id="footer_copyyeardomain">&copy; 2015 <strong>TRIBUNA.MD</strong></span><span
+                        id="footer_copyttext">Toate drepturile sunt rezervate.</span></div>
+            </div>
+            <div id="footer_searchnav">
+                <form>
+                    <input type="text" placeholder="Căutare"/>
+                    <input type="submit" value=""/>
+                </form>
+                <ul id="footernav2">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 1</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </footer>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+<script src="js/jquery.cycle2.carousel.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

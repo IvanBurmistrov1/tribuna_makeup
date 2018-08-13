@@ -1,0 +1,5 @@
+nav{float: left;}
+nav>ul{float: left;font-size: 14px;font-family: Circe_bold,Arial,Georgia,Tahoma; margin: 0;padding: 0;list-style: none;line-height: 75px;}
+nav>ul>li{float: left;margin-left: 20px;text-transform: uppercase;}
+nav>ul>li.current-menu-item a{background: #333333;padding: 0 10px;line-height: 30px;display: inline-block;color: #d3bfcf;}
+nav>ul>li>a{color: #ffffff;}
