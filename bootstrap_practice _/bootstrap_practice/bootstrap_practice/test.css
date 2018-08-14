@@ -222,7 +222,7 @@ footer #footer_container {
 
 }
 
-@media screen and  (max-width: 1280px ) {
+@media screen and  (max-width: 1279px ) {
 
     #header_wrap {
         margin-left: 24px;
@@ -580,6 +580,9 @@ footer #footer_container {
 .bx-wrapper{
     margin-bottom: 40px;
 }
+#single_article_featuredimage_viewport{
+    margin-top: 35px;margin-bottom: 25px;
+}
 
 @media screen and (max-width: 1279px) {
 
@@ -597,16 +600,19 @@ footer #footer_container {
         margin: 0 24px !important;
 
     }
-
-    #single_article_featuredimage {
+    #single_article_featuredimage_viewport{
         margin-right: -24px !important;
         margin-left: -24px !important;
+
+    }
+    #single_article_featuredimage {
+
 
         overflow-scrolling: unset;
     }
 
     #single_article_featuredimage > img {
-        width: calc(100% + 48px);
+        width: calc(100%);
 
     }
 

@@ -48,7 +48,7 @@ $(document).ready(function () {
        // $(slider_selector).resizeWindow();
     }
     $('#politica_tabs>ul>li>a').on('shown.bs.tab', function(){
-        alert('The new tab is about to be shown.');
+       // alert('The new tab is about to be shown.');
         $(window).trigger('resize');
     });
 

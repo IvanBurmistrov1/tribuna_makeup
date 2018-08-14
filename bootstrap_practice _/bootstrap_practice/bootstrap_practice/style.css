@@ -244,7 +244,7 @@ body{margin: 0}
 #single_article_header .allnews_catname {background: #999999;padding: 0 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;line-height: 22px;display: inline-block;text-decoration: none;color: #ffffff;margin-right: 10px;}
 #single_article_date{font-size: 14px;font-family: Circe,Arial,Georgia,Tahoma!important;line-height: 22px;}
 #single_article_h1{width: 100%;text-align: center;font-size: 43.01px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 48.01px;text-transform: uppercase;padding: 0 90px;}
-#single_article_featuredimage{width: 100%;text-align: center;margin-top: 35px;margin-bottom: 25px;}
+#single_article_featuredimage{width: 100%;text-align: center;}
 #single_article_content{width: 100%;padding: 0 90px;}
 #single_article_content img{max-width: 100%;height: auto;}
 #single_article_content p{margin-bottom: 25px;}
