@@ -534,6 +534,53 @@ footer #footer_container {
 .slick-disabled{
     display: none!important;
 }
+.bx-wrapper {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.next_arr{
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+
+}
+
+.prev_arr>a>div{
+    background-image: url("images/arrow_prew.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+
+    background-position-x: center;
+}
+
+.next_arr>a>div{
+    background-image: url("images/arrow_next.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+
+.prev_arr .disabled>div{
+    display: none;
+
+}
+.next_arr .disabled>div{
+    display: none;
+
+}
+#blogosfera_col_on_small .tab-pane{
+    position: relative;
+}
+
+.bx-wrapper{
+    margin-bottom: 40px;
+}
+
 @media screen and (max-width: 1279px) {
 
     .container-fluid {

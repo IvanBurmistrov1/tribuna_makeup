@@ -6,6 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel='stylesheet' id='main-style' href='style.css' type='text/css' media='all'/>
     <link rel="stylesheet" href="test.css">
     <script src="js/javascript.js"></script>
@@ -21,8 +22,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="css/lightslider.css">
 
+    <!-- bxslider  -->
 
 
     <title>Document</title>
@@ -39,37 +40,37 @@
                 <span class="icon-bar"></span>
             </button>
 
-                <nav id="header_nav" class="header_nav collapse navbar-collapse">
+            <nav id="header_nav" class="header_nav collapse navbar-collapse">
 
-                    <!--<ul><li><a href="#">Știri</a></li>
-                    <li><a href="#">Comentarii</a></li>
-                    <li><a href="#">Interviu</a></li>
+                <!--<ul><li><a href="#">Știri</a></li>
+                <li><a href="#">Comentarii</a></li>
+                <li><a href="#">Interviu</a></li>
+                <li><a href="#">Top politic</a></li>
+                <li><a href="#">Omul săptămânii</a></li>
+                <li><a href="#">Pasiuni</a></li>
+                <li><a href="#">Life&amp;Style</a></li>
+                <li><a href="#">Istoria partidelor</a></li></ul>-->
+                <ul id="menu-top" class="nav navbar-nav">
+                    <li><a href="http://tribuna.md/ru/category/news/">Știri</a></li>
+                    <li><a href="http://tribuna.md/ru/category/comments/">Comentarii</a></li>
+                    <li class="current-menu-item"><a href="#">Interviu</a></li>
                     <li><a href="#">Top politic</a></li>
                     <li><a href="#">Omul săptămânii</a></li>
-                    <li><a href="#">Pasiuni</a></li>
-                    <li><a href="#">Life&amp;Style</a></li>
-                    <li><a href="#">Istoria partidelor</a></li></ul>-->
-                    <ul id="menu-top" class="nav navbar-nav">
-                         <li><a href="http://tribuna.md/ru/category/news/">Știri</a></li>
-                           <li><a href="http://tribuna.md/ru/category/comments/">Comentarii</a></li>
-                           <li class="current-menu-item"><a href="#">Interviu</a></li>
-                           <li><a href="#">Top politic</a></li>
-                           <li><a href="#">Omul săptămânii</a></li>
-                           <li><a href="http://tribuna.md/ru/category/editorial/">Pasiuni</a></li>
-                           <li><a href="http://tribuna.md/ru/category/life/">Life&#038;Style</a></li>
-                           <li><a href="http://tribuna.md/ru/category/history/">Istoria partidelor</a></li>
-<!--
-                        <li><a href="http://tribuna.md/ru/category/news/">Новости</a></li>
-                        <li><a href="http://tribuna.md/ru/category/comments/">Комментарии</a></li>
-                        <li><a href="#">Интервью</a></li>
-                        <li><a href="#">Топ политик</a></li>
-                        <li><a href="#">Человек недели</a></li>
-                        <li><a href="http://tribuna.md/ru/category/editorial/">Пасиунь</a></li>
-                        <li><a href="http://tribuna.md/ru/category/life/">Жизнь&#038;стиль</a></li>
-                        <li><a href="http://tribuna.md/ru/category/history/">История партий</a></li>
-                        -->
-                    </ul>
-                </nav>
+                    <li><a href="http://tribuna.md/ru/category/editorial/">Pasiuni</a></li>
+                    <li><a href="http://tribuna.md/ru/category/life/">Life&#038;Style</a></li>
+                    <li><a href="http://tribuna.md/ru/category/history/">Istoria partidelor</a></li>
+                    <!--
+                                            <li><a href="http://tribuna.md/ru/category/news/">Новости</a></li>
+                                            <li><a href="http://tribuna.md/ru/category/comments/">Комментарии</a></li>
+                                            <li><a href="#">Интервью</a></li>
+                                            <li><a href="#">Топ политик</a></li>
+                                            <li><a href="#">Человек недели</a></li>
+                                            <li><a href="http://tribuna.md/ru/category/editorial/">Пасиунь</a></li>
+                                            <li><a href="http://tribuna.md/ru/category/life/">Жизнь&#038;стиль</a></li>
+                                            <li><a href="http://tribuna.md/ru/category/history/">История партий</a></li>
+                                            -->
+                </ul>
+            </nav>
 
             <div class="header_additional_options_block">
                 <div id="header_langs">
@@ -975,7 +976,7 @@
                 <div id="blogosfera_col_on_small" class="row hidden-lg ">
                     <div id="politicaonline_on_small" class="col-md-6 col-sm-6 col-xs-12 ">
                         <div id="politicaonline_header_on_small">Politica online</div>
-                        <div class="politica_blogosfera_tabs">
+                        <div id="politica_tabs" class="politica_blogosfera_tabs">
                             <ul>
                                 <li class="active"><a href="#tab1" data-toggle="tab">Cele mai recente</a></li>
                                 <li><a href="#tab2" data-toggle="tab">Partidul nostru</a></li>
@@ -994,11 +995,16 @@
                         </div>
                         <div class="politica_blogosfera_tabs_content tab-content">
                             <div class="tab-pane active" id="tab1">
-                                <ul id="slider"   class="politicaonline_on_small_list tab_content_list">
+
+                                <div id="politicaonline_prev_tab1" class="prev_arr">
+
+                                </div>
+                                <ul class="slider-politica  politicaonline_on_small_list tab_content_list">
                                     <li>
-                                    <img src="images/partidul_nolstru.png">
-                                    <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
-                                </li>
+                                        <img src="images/partidul_nolstru.png">
+                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările
+                                            centrelor...</a>
+                                    </li>
                                     <li>
                                         <img src="images/plr.png">
                                         <a href="#">PLR condamnă expulzarea cetățeanului român George Simion...</a>
@@ -1010,7 +1016,8 @@
                                     </li>
                                     <li>
                                         <img src="images/psd.png">
-                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
+                                        <a href="#">PSD propune cetățenilor ca împreună să participe la
+                                            schimb...</a>
                                     </li>
                                     <li>
                                         <img src="images/partidul_popular.png">
@@ -1019,20 +1026,25 @@
                                     </li>
                                     <li>
                                         <img src="images/partidul_nolstru.png">
-                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
+                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările
+                                            centrelor...</a>
                                     </li>
                                     <li>
                                         <img src="images/plr.png">
-                                        <a href="#">PLR condamnă expulzarea cetățeanului român George Simion...</a>
+                                        <a href="#">PLR condamnă expulzareafj vbvcbfg gf fgfhd fgdfg gfdgf d
+                                            cetățeanului român George Simion...</a>
                                     </li>
                                     <li>
                                         <h3>Guvernul RM</h3>
-                                        <a href="#">Prim-ministrul Chiril Gaburici continuă consultările cu
+                                        <a href="#">Prim-ministrul Chiril Gaburici fgfd fgf dgf dggfdgfd gfd gfd
+                                            gfdgfdg
+                                            dfg fdgcontinuă consultările cu
                                             societ...</a>
                                     </li>
                                     <li>
                                         <img src="images/psd.png">
-                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
+                                        <a href="#">PSD propune cetățenilor ca împreună să participe la
+                                            schimb...</a>
                                     </li>
                                     <li>
                                         <img src="images/partidul_popular.png">
@@ -1041,7 +1053,8 @@
                                     </li>
                                     <li>
                                         <img src="images/partidul_nolstru.png">
-                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
+                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările
+                                            centrelor...</a>
                                     </li>
                                     <li>
                                         <img src="images/plr.png">
@@ -1054,41 +1067,90 @@
                                     </li>
                                     <li>
                                         <img src="images/psd.png">
-                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
-                                    </li>
-                                    <li>
-                                        <img src="images/partidul_popular.png">
-                                        <a href="#">Platforma electorală a echipei Partidului Popular la funcția
-                                            de...</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane" id="tab2">
-                                <ul class="politicaonline_on_small_list">
-                                    <li>
-                                        <img src="images/psd.png">
-                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
-                                    </li>
-                                    <li>
-                                        <img src="images/partidul_popular.png">
-                                        <a href="#">Platforma electorală a echipei Partidului Popular la funcția
-                                            de...</a>
-                                    </li>
-                                    <li>
-                                        <img src="images/partidul_nolstru.png">
-                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
-                                    </li>
-                                    <li>
-                                        <img src="images/plr.png">
-                                        <a href="#">PLR condamnă expulzarea cetățeanului român George Simion...</a>
-                                    </li>
-                                    <li>
-                                        <h3>Guvernul RM</h3>
-                                        <a href="#">Prim-ministrul Chiril Gaburici continuă consultările cu
-                                            societ...</a>
+                                        <a href="#">PSD propune cetățenilor ca împreună să participe la
+                                            schimb...</a>
                                     </li>
 
                                 </ul>
+                                <div id="politicaonline_next_tab1" class="next_arr">
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane" id="tab2">
+                                <div id="politicaonline_prev_tab2" class="prev_arr">
+
+                                </div>
+                                <ul class="slider-politica  politicaonline_on_small_list tab_content_list">
+                                    <li>
+                                        <img src="images/partidul_nolstru.png">
+                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/plr.png">
+                                        <a href="#">PLR condamnă expulzarea cetățeanului român George Simion...</a>
+                                    </li>
+                                    <li>
+                                        <h3>Guvernul RM</h3>
+                                        <a href="#">Prim-ministrul Chiril Gaburici continuă consultările cu
+                                            societ...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/psd.png">
+                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/partidul_popular.png">
+                                        <a href="#">Platforma electorală a echipei Partidului Popular la funcția
+                                            de...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/partidul_nolstru.png">
+                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/plr.png">
+                                        <a href="#">PLR condamnă expulzareafj vbvcbfg gf fgfhd fgdfg gfdgf d
+                                            cetățeanului român George Simion...</a>
+                                    </li>
+                                    <li>
+                                        <h3>Guvernul RM</h3>
+                                        <a href="#">Prim-ministrul Chiril Gaburici fgfd fgf dgf dggfdgfd gfd gfd gfdgfdg
+                                            dfg fdgcontinuă consultările cu
+                                            societ...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/psd.png">
+                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/partidul_popular.png">
+                                        <a href="#">Platforma electorală a echipei Partidului Popular la funcția
+                                            de...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/partidul_nolstru.png">
+                                        <a href="#">Partidul lui Renato Usatîi va atrage realizările centrelor...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/plr.png">
+                                        <a href="#">PLR condamnă expulzarea cetățeanului român George Simion...</a>
+                                    </li>
+                                    <li>
+                                        <h3>Guvernul RM</h3>
+                                        <a href="#">Prim-ministrul Chiril Gaburici continuă consultările cu
+                                            societ...</a>
+                                    </li>
+                                    <li>
+                                        <img src="images/psd.png">
+                                        <a href="#">PSD propune cetățenilor ca împreună să participe la schimb...</a>
+                                    </li>
+
+                                </ul>
+                                <div id="politicaonline_next_tab2" class="next_arr">
+
+                                </div>
                             </div>
                             <div class="tab-pane" id="tab3">3</div>
                             <div class="tab-pane" id="tab4">4</div>
@@ -1124,7 +1186,7 @@
                         <div class="politica_blogosfera_tabs_content  tab-content">
 
                             <div class="tab-pane active" id="tab1-blogosfera">
-                                <ul  class="blogosfera_on_small_list tab_content_list">
+                                <ul class="blogosfera_on_small_list tab_content_list">
                                     <li>
                                         <div class="tab-item-image-shadow">
                                             <img src="images/usatii.png" alt="">
@@ -1360,13 +1422,14 @@
 <script src="js/bootstrap-select.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.carousel.min.js"></script>
-<script type="text/javascript" src="js/"></script>
-<script src="js/lightslider.js" ></script>
+<script src="js/lightslider.js"></script>
+
+<script src="bx4slider/jquery.bxslider.js"></script>
 <script src="js/scripts.js"></script>
 
 
 <script type="text/javascript">
-    jQuery(document).on('ready post-load', easy_fancybox_handler);
+    // jQuery(document).on('ready post-load', easy_fancybox_handler);
 </script>
 </body>
 </html>
