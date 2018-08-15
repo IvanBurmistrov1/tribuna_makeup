@@ -295,7 +295,7 @@ body{margin: 0}
   padding: 0 25px;margin-left: 20px;margin-top: -5px;}
 .commentpopuplink:hover{color: #fff;text-decoration: none;}
 #first_ratings{width: 100%;display: flex;flex-wrap: nowrap;align-items: stretch;min-height: 227px;}
-#first_ratings .rating_block_first{float: left;  border-top: 1px solid #cecece;border-bottom: 1px solid #cecece;flex-grow: 1; padding: 0 50px 0 104px;position: relative;}
+#first_ratings .rating_block_first{  border-top: 1px solid #cecece;border-bottom: 1px solid #cecece;flex-basis: 50%;flex-grow:1;padding: 0 50px 0 104px;position: relative;}
 #first_ratings .rating_block_first:first-child{border-right: 1px solid #cecece;}
 #first_ratings .rating_block_first .rating_block_first_topnumber{position: absolute;color: #e7e5e2;font-size: 180px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 1;left: 30px;top: 20px;z-index: 1;display: inline-block;}
 #first_ratings .rating_block_first .rating_block_first_title{font-size: 26px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;color: #32343a;display: inline-block;clear: both;position: relative;z-index: 2;margin-top: 34px;line-height: 30px;text-decoration: none;}
