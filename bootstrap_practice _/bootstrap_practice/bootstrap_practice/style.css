@@ -98,7 +98,19 @@ body{margin: 0}
 #breaking_news a #breaking_catname{background: #900600;padding: 5px 12px;float: left;margin: 13px 0 0 23px;text-transform: uppercase;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; clear: both;}
 #breaking_news a #breaking_title{float: left;clear: both;margin: 6px 0 0 23px;font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;}
 #politicaonline{float: left;width: 205px;border: 1px solid #cecece;border-top: none; margin-left: -1px;}
-#politicaonline_header,#blogosfera_header{width: 100%;text-align: center;color: #2c2e35;font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;padding: 17px 0;}
+#politicaonline_header,#blogosfera_header{text-align: center;color: #2c2e35;font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;padding: 17px 0;}
+#politicaonline_header{
+    width: 205px;
+    float:left;
+    border-left: 1px solid #cecece;;
+    border-right: 1px solid #cecece;
+    margin-left: -1px
+}
+#blogosfera_header{
+    float:right;
+    width: 188px;
+
+}
 .politicaonline_item,.blogosfera_item{width: 100%;}
 .politicaonline_item_head{width: 100%;color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;background: #663366;text-align: center;line-height: 22px;}
 .politicaonline_item_img{display: block;max-width: 100%;margin: 17px auto 15px;}
@@ -189,13 +201,13 @@ body{margin: 0}
 #comentarii_block_first_date{font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;color: #32343a;}
 #comentarii_block_first_readmore{color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 42px;display: inline-block;float: left;clear: both;background: #663366;text-transform: uppercase;padding: 0 25px;text-decoration: none;position: absolute;bottom: 0;left: 136px;}
 #comentarii_block_banner{float: left;width: 139px;height: 596px;background: #cecece;margin-top: 38px;}
-#comentarii_block_list{float: right;width: 724px;margin-top: 38px;}
+#comentarii_block_list{float: right;width: calc(100% - 139px);margin-top: 22px;}
 #comentarii_block_list ul{float: left;width: 100%;padding: 0;margin: 0;display: block;list-style: none;}
 #comentarii_block_list ul li{display: block;width: 100%;background: url(images/comentariilistquote.png) no-repeat 16px 10px;border-bottom: 1px solid #cecece;padding: 12px 30px 20px 93px;position: relative;}
 #comentarii_block_list ul li a{color: #333333;font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 30px;text-decoration: none;display: block;clear: both;}
 #comentarii_block_list ul li span{display: inline-block;color: #555555;font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;}
 #comentarii_block_list_older{color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 42px;display: inline-block;float: left;clear: both;background: #663366;text-transform: uppercase;padding: 0 25px;text-decoration: none;margin-top: 25px;margin-bottom: 20px;}
-#comentarii_block_list #pagination_com{float: left;margin-top: 24px;margin-bottom: 12px;}
+#comentarii_block_list #pagination_com{float: left;margin-top: 24px;margin-bottom: 24px;}
 #comentarii_block_list #pagination_com .alignleft{float: left;}
 #comentarii_block_list #pagination_com .alignleft a{color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 42px;display: inline-block;float: left;clear: both;background: #663366;text-transform: uppercase;padding: 0 25px;}
 #comentarii_block_list #pagination_com .alignright{float: left;}
@@ -259,7 +271,7 @@ body{margin: 0}
 #similar_articles_head{width:175px;padding-right: 25px;font-size: 24px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 24px;text-transform: uppercase;margin-top: 75px;text-align: left;float:left;}
 #similar_articles_grid{width: calc(100% - 175px);float:left;}
 #similar_articles_grid .column {padding-left:0px; padding-right: 0px; height: 200px;position: relative;}
-#similar_articles_grid  .column img {position: absolute;top: 0;left: 0;z-index: 1;width: 100%;height: 100%;}
+#similar_articles_grid  .column img {position: absolute;top: 0;left: 0;z-index: 1;width: 100%;height: 100%;object-fit: cover;}
 #similar_articles_grid  .column a{position: absolute;width: 100%;z-index: 2;height: 100%;display: block;background: url(images/interviuitembg.png) no-repeat;background-size: cover; font-size: 16px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; color: #ffffff;padding: 30px 28px;text-decoration: none;}
 #similar_articles_grid  .column a span{background: url(images/subnewsline.png) no-repeat left bottom;display: block;padding-bottom: 20px;}
 #single_article_comments{width: 100%;}
@@ -282,12 +294,12 @@ body{margin: 0}
   text-transform: uppercase;
   padding: 0 25px;margin-left: 20px;margin-top: -5px;}
 .commentpopuplink:hover{color: #fff;text-decoration: none;}
-#first_ratings{width: 100%;float: left;}
-#first_ratings .rating_block_first{width: 50%;float: left;  border-top: 1px solid #cecece;border-bottom: 1px solid #cecece;height: 227px;padding: 0 50px 0 104px;position: relative;}
+#first_ratings{width: 100%;display: flex;flex-wrap: nowrap;align-items: stretch;min-height: 227px;}
+#first_ratings .rating_block_first{float: left;  border-top: 1px solid #cecece;border-bottom: 1px solid #cecece;flex-grow: 1; padding: 0 50px 0 104px;position: relative;}
 #first_ratings .rating_block_first:first-child{border-right: 1px solid #cecece;}
 #first_ratings .rating_block_first .rating_block_first_topnumber{position: absolute;color: #e7e5e2;font-size: 180px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 1;left: 30px;top: 20px;z-index: 1;display: inline-block;}
 #first_ratings .rating_block_first .rating_block_first_title{font-size: 26px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;color: #32343a;display: inline-block;clear: both;position: relative;z-index: 2;margin-top: 34px;line-height: 30px;text-decoration: none;}
-#first_ratings .rating_block_first .rating_block_first_date{position: relative;z-index: 2;margin-top: 15px;display: inline-block;font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;color: #32343a;}
+#first_ratings .rating_block_first .rating_block_first_date{position: relative;z-index: 2;margin-top: 15px;margin-bottom: 63px;display: inline-block;font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;color: #32343a;}
 #first_ratings .rating_block_first .rating_block_first_readmore{color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 42px;display: inline-block;float: left;clear: both;background: #663366;text-transform: uppercase;padding: 0 25px;position: absolute;bottom: 0;left: 105px;text-decoration: none;z-index: 2;}
 .rating_listitem_type{position: absolute;left: 0;color: #e7e5e2!important;font-size: 64.23px!important;font-family: Circe_bold,Arial,Georgia,Tahoma!important;  line-height: 1;width: 85px;text-align: center;}
 .rating_list li{background: none!important;}

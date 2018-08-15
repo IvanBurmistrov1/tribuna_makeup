@@ -16,39 +16,23 @@ $(document).ready(function () {
     $("#politicaonline_on_small .tab-pane").each(function (key, item) {
         var next_selector = "#politicaonline_next_" + this.id;
         var prev_selector = "#politicaonline_prev_" + this.id;
-        var slider_selector = "#" + this.id + " .slider-politica";
+        var slider_selector = "#" + this.id + " .slider";
         make_slider(slider_selector, prev_selector, next_selector);
     });
-    $("#politica_tabs>ul>li>a").click(function () {
-        var tab_id = this.getAttribute("href");
-        var slider_selector =  tab_id + " .slider-politica";
-        var next_selector = "#politicaonline_next_" + tab_id.substr(1);
-        var prev_selector = "#politicaonline_prev_" + tab_id.substr(1);
-        reload_slider(slider_selector,next_selector,prev_selector);
-    });
-    function reload_slider(slider_selector, prev_selector, next_selector) {
-       /* var slider=$(slider_selector).reloadSlider({
-            mode: 'vertical',
-            minSlides: 5,
-            maxSlides: 5,
-            adaptiveHeight: true,
-            hideControlOnEnd: true,
-            infiniteLoop: false,
-            wrapperClass: 'bx-wrapper',
-            pager: false,
-            controls: true,
-            nextSelector: next_selector,
-            prevSelector: prev_selector,
-            nextText: '<div style="height:30px;width: 100%" ></div>',
-            prevText: '<div style="height:30px;width: 100%" ></div>',
-        });*/
-        $(window).trigger('resize');
 
-        //slider.redrawSlider();
-       // $(slider_selector).resizeWindow();
-    }
+    $("#blogosfera_on_small .tab-pane").each(function (key, item) {
+        var next_selector = "#blogosfera_next_" + this.id;
+        var prev_selector = "#blogosfera_prev_" + this.id;
+        var slider_selector = "#" + this.id + " .slider";
+        make_slider(slider_selector, prev_selector, next_selector);
+    });
+
     $('#politica_tabs>ul>li>a').on('shown.bs.tab', function(){
        // alert('The new tab is about to be shown.');
+        $(window).trigger('resize');
+    });
+    $('#blogosfera_tabs>ul>li>a').on('shown.bs.tab', function(){
+        // alert('The new tab is about to be shown.');
         $(window).trigger('resize');
     });
 
