@@ -147,6 +147,7 @@ footer #footer_container {
 
 #header {
     display: flex;
+
     align-items: stretch;
     flex-direction: row;
 }
@@ -229,18 +230,6 @@ footer #footer_container {
         margin-left: 24px;
         margin-right: 24px;
     }
-
-    /*
-        .header_nav > ul > li > a {
-           /* line-height: 25px !important;
-        }
-
-
-
-        .header_nav > ul > li > a {
-
-        }
-    */
 }
 
 #politicaonline_on_small {
@@ -270,8 +259,7 @@ footer #footer_container {
     }
 
     .navbar-toggle {
-        flex-direction: column-reverse;
-        padding-top: 16px !important;
+
     }
 
     #header_nav {
@@ -388,6 +376,8 @@ footer #footer_container {
 
 #blogosfera_col_on_small {
     border-bottom: 1px solid #ccc;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .tab_content_list {
@@ -495,6 +485,8 @@ footer #footer_container {
 
 #mainourblogs {
     justify-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .mainourblogs_item_container {
@@ -593,10 +585,7 @@ footer #footer_container {
     margin-bottom: 50px;
 }
 
-#single_article_featuredimage_viewport {
-    margin-top: 35px;
-    margin-bottom: 25px;
-}
+
 
 @media screen and (max-width: 1279px) {
 
@@ -615,20 +604,16 @@ footer #footer_container {
 
     }
 
-    #single_article_featuredimage_viewport {
+    #single_article_featuredimage  {
         margin-right: -24px !important;
         margin-left: -24px !important;
+        width: calc(100% + 48px);
 
     }
 
-    #single_article_featuredimage {
-
-        overflow-scrolling: unset;
-    }
 
     #single_article_featuredimage > img {
-        width: calc(100%);
-
+        width: 100%;
     }
 
     #politicaonline {
@@ -668,9 +653,17 @@ footer #footer_container {
     #comentarii_block_list ul li{
         padding-right: 0;
     }
+    #interviu_block_list {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #interviu_block_list .navigation{width: 100%;}
+    #interviu_block_list .navigation .alignleft{float: none;text-align: center;}
+    #interviu_block_list .navigation .alignleft a{float:none;}
 }
 
-@media screen and (min-width: 767px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     #blogosfera_on_small {
         padding-left: 18px !important;
     }
@@ -691,6 +684,15 @@ footer #footer_container {
     #footer_content {
         float: left;
         width: calc(100% - 84px);
+    }
+    #stiri_block_first_title{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    #stiri_block_first_text{
+        font-size: 14px;
+        line-height: 1.5;
+        line-height: 1.714;
     }
 
 }
@@ -725,6 +727,7 @@ footer #footer_container {
     #first_ratings .rating_block_first{
         padding-right: 30px;
     }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -819,6 +822,32 @@ footer #footer_container {
     #first_ratings .rating_block_first:first-child {
         border-right: none;
     }
+    #stiri_block_first_thumb{
+        width: 100%;
+        margin-right: 0;
+        height: auto;
+    }
+    #stiri_block_first_thumb a{
+        width:100%;
+        background-repeat: repeat-x;
+    }
+    #stiri_block_first_thumb img{
+        width:100%;
+        background-repeat: repeat-x;
+
+        object-fit: cover;
+    }
+    #stiri_block_first_content{
+        width: 100%;
+        padding: 25px;
+    }
+    #stiri_block_first_title{
+
+        margin-top: 0px;
+    }
+    #mainallnews .navigation .alignleft{float: none;text-align: center;}
+    #mainallnews .navigation .alignleft a{float:none;}
+    #interviu_block_list .column {width:50%;}
 
 }
 
@@ -855,9 +884,7 @@ footer #footer_container {
         margin: 0 auto;
     }
 
-    #single_article_featuredimage > img {
-        width: 100%;
-    }
+
 }
 
 
