@@ -12,7 +12,24 @@ $(document).ready(function () {
         size: 5,
         width: '60px'
     });
+
     $("<style type='text/css' id='dynamic' />").appendTo("head");
+
+
+    function addAfter(){
+        if(window.matchMedia('(min-width: 1200px)').matches)
+        {
+            var $whatever = $('.container-fluid');
+            var mr=$(".container-fluid").css("margin-right");
+            //var ending_right = ($('#container-fluid').marginLeft+)-1280);
+            $("#dynamic").text("#breaking_news:after{width:" + mr + ";}")
+        }
+    }
+    addAfter();
+    $(window).resize(function () {
+        addAfter();
+    });
+
     $("#politicaonline_on_small .tab-pane").each(function (key, item) {
         var next_selector = "#politicaonline_next_" + this.id;
         var prev_selector = "#politicaonline_prev_" + this.id;
@@ -27,11 +44,11 @@ $(document).ready(function () {
         make_slider(slider_selector, prev_selector, next_selector);
     });
 
-    $('#politica_tabs>ul>li>a').on('shown.bs.tab', function(){
-       // alert('The new tab is about to be shown.');
+    $('#politica_tabs>ul>li>a').on('shown.bs.tab', function () {
+        // alert('The new tab is about to be shown.');
         $(window).trigger('resize');
     });
-    $('#blogosfera_tabs>ul>li>a').on('shown.bs.tab', function(){
+    $('#blogosfera_tabs>ul>li>a').on('shown.bs.tab', function () {
         // alert('The new tab is about to be shown.');
         $(window).trigger('resize');
     });
