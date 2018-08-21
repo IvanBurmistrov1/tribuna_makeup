@@ -715,7 +715,7 @@ footer #footer_container {
     /*#interviu_block_list .navigation .alignleft a{float:none;}*/
 }
 
-@media screen and (min-width: 991px) and (max-width: 1280px){
+@media screen and (min-width: 991px) and (max-width: 1279px){
     #slider_wrapper{
         width: calc(100% - 153px);
         margin-right: -24px;
