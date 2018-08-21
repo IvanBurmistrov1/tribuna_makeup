@@ -17,12 +17,14 @@ $(document).ready(function () {
 
 
     function addAfter(){
-        if(window.matchMedia('(min-width: 1200px)').matches)
+        if(window.matchMedia('(min-width: 1280px)').matches)
         {
             var $whatever = $('.container-fluid');
             var mr=$(".container-fluid").css("margin-right");
             //var ending_right = ($('#container-fluid').marginLeft+)-1280);
             $("#dynamic").text("#breaking_news:after{width:" + mr + ";}")
+        }else{
+            $("#dynamic").text("#breaking_news:after{width: 0px;}");
         }
     }
     addAfter();
