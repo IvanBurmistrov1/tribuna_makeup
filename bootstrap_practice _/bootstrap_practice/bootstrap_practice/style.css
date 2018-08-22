@@ -58,7 +58,7 @@ body{margin: 0}
 #header_langs .dropdown-menu{margin: 0;border-radius: 0;background: #24252b;border: none;}
 #header_langs .bootstrap-select.btn-group .dropdown-menu li a{color: #d3bfcf;font-size: 14px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;}
 #header_langs .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background: #333437;}
-#slider_wrapper{width: calc(100% - 177px);float: right;position: relative;margin-left: 25px;height: 600px;margin-top: 00px;}
+#slider_wrapper{margin-top: 100px; width: calc(100% - 177px);float: right;position: relative;margin-left: 25px;height: 600px;margin-top: 00px;}
 #container{width: 1280px;margin: 0 auto;}
 #maincolumn{float: left;width: calc(100% - 392px);overflow: visible;}
 .cycle-overlay{position: absolute;top: 0px;width: calc( 100% + 177px);min-height: 100px;background:  url(images/slidetitlebg.png)  repeat-y;background-position:left;background-size: contain;right: 0;color: #ffffff;}
@@ -72,6 +72,7 @@ body{margin: 0}
 #slider_wrapper .slideitem {
     width: 100%;
     height: 400px;
+
 }
 #slider_wrapper .slideitem img{
     width: 100%;
@@ -140,15 +141,20 @@ body{margin: 0}
 #subslider_banner{ width: 888px; margin: 12px auto 0 auto;}
 
 #interiutopfoto{width: 100%;float: left;margin-top: 13px;}
-#maininterviu{height: 194px;float: left;width: 411px;position: relative;background: url(images/interviubg.png)left;padding: 9px 0 0 14px;}
+#maininterviu{height: 194px;float: left;width: 411px;position: relative;background: url(images/interviubg.png)left;background-size:100%;padding: 9px 0 0 14px;}
+#maininterviu_shadow{
+    position: absolute;width: 100%;height: 100%; z-index:5;top:0;left:0;
+    background: linear-gradient(to right, rgba(91,42,81,1) 0%, rgba(91,42,81,0) 100%);
+    z-index: -1
+}
 #maininterviu a{color: #ffffff;}
 #maininterviu figure{height: 194px;position: absolute; top: 0;right: 0;display: block;width: 234px;height: 194px;overflow: hidden;}
 #maininterviu figure figcaption{background: url(images/inteviushadow.png) top;position: absolute;bottom: 0;left: 0;width: 100%;height: 125px;display: block;text-align: center;padding-top: 92px;}
 #maininterviu figure figcaption .interviucatname{background: #333333;padding: 0 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;line-height: 22px;display: inline-block;}
-#maininterviu_title{float: left;display: block;width: 138px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-decoration: none;line-height: 24px;background: url(images/subnewsline.png) no-repeat left bottom;padding-bottom: 10px;}
+#maininterviu_title{float: left;position:relative;display: block;width: calc(100% - 234px);padding-right:14px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-decoration: none;line-height: 24px;background: url(images/subnewsline.png) no-repeat left bottom;padding-bottom: 10px;}
 #maintop{height: 194px;float: left;width:calc((100% - 411px) / 2);border-top: 1px solid #cecece;border-bottom: 1px solid #cecece;text-align: center;position: relative;}
 #maintop_number{font-size: 187.25px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 1;color: #e7e5e2;position:absolute;left: 0;right: 0;margin: 0 auto;top: 15px;}
-#maintop_title{color: #2c2e35;font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-decoration: none;position: relative;z-index: 2;width: 100%;padding: 25px 20px 0 20px;text-align: center;display: block;}
+#maintop_title{color: #2c2e35;position:relative; font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-decoration: none;position: relative;z-index: 2;width: 100%;padding: 25px 20px 0 20px;text-align: center;display: block;}
 #maintop_readmore{position: absolute;bottom: 0;left: 0;right: 0;margin: 0 auto;z-index: 2;display: inline-block;line-height: 42px;background: #663366;color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;text-decoration: none;width: 60%;}
 #mainfoto{height: 194px;float: right;width:calc((100% - 411px) / 2);display: block;}
 #mainfoto figure{width: 100%;height: 100%;overflow: hidden;position: relative;text-align: center;}
@@ -156,22 +162,26 @@ body{margin: 0}
 #mainfoto figure figcaption{position: absolute;bottom: 13px;left: 0;right: 0;margin: 0 auto;display: inline-block;text-align: center;}
 #mainfoto figure figcaption a{display: inline-block;position: relative;z-index: 2;text-transform: uppercase;color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-decoration: none;line-height: 22px;background: #5b2a51;padding: 0 9px;}
 #mainfoto figure img{width: 100%;height:100%;object-fit: cover;}
-#mainweekom{float: left;width: 411px;height: 194px;position: relative;background: #24252b;padding: 24px 25px 0 0;margin-top: 12px;}
+#mainweekom{float: left;height: 194px;position: relative;background: #24252b;padding: 24px 0 0 0;margin-top: 12px;}
+#mainweekom_shadow{
+    position: absolute;width: 100%;height: 100%; z-index:-1;top:0;left:0;
+    background: linear-gradient(to right, rgba(91,42,81,0) 0%, rgba(91,42,81,1) 100%);
+}
 #mainweekom a{color: #ffffff;}
 #mainweekom figure{height: 194px;position: absolute; top: 0;left: 0;display: block;width: 234px;height: 194px;overflow: hidden;}
 #mainweekom figure figcaption{background: url(images/inteviushadow.png) top;position: absolute;bottom: 0;left: 0;width: 100%;height: 125px;display: block;text-align: center;padding-top: 92px;}
 #mainweekom figure figcaption .interviucatname{background: #333333;padding: 0 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;line-height: 22px;display: inline-block;}
-#mainweekom_title{float: right;display: block;width: 138px;font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-decoration: none;line-height: 24px;background: url(images/subnewsline.png) no-repeat left bottom;padding-bottom: 10px;text-transform: uppercase;}
-#maincomentarii{float: left;width: 241px;height: 308px;background: #cccccc; margin-top: 12px;position: relative;}
+#mainweekom_title{float: right;display: block;padding-left:25px; padding-right:25px;width: calc(100% - 234px);font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-decoration: none;line-height: 24px;background: url(images/subnewsline.png) no-repeat 25px bottom;padding-bottom: 10px;text-transform: uppercase;}
+#maincomentarii{float: left;width: 241px;height: auto;background: #cccccc; margin-top: 12px;position: relative;}
 #maincomentarii_readmore{  position: absolute;bottom: 0;left: 28px;z-index: 2;display: inline-block;line-height: 42px;background: #663366;color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;text-decoration: none;padding: 0 20px;}
 #maincomentarii_catname,#maineditorial_catname{background: #333333;padding: 0 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;line-height: 22px;display: inline-block;color: #ffffff;margin: 29px 0 0 24px;float: left;}
-#maincomentarii_title{font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;display: inline-block;margin: 0 27px 0 26px;padding-left: 35px;padding-right: 38px;line-height: 24px;margin-top: 26px;text-decoration: none;color: #333333;background: url(images/commquote.png) no-repeat top left;}
+#maincomentarii_title{font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;display: inline-block;margin: 0 27px 45px 26px;padding-left: 35px;padding-right: 38px;line-height: 24px;margin-top: 26px;text-decoration: none;color: #333333;background: url(images/commquote.png) no-repeat top left;}
 #maineditorial{float: right;width: 236px;/*height: 388px;*/background: url(images/editorialbg.png) repeat-y;margin-top: 12px;position: relative;text-align: center;padding-bottom: 50px;}
 #maineditorial_title{font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;display: inline-block;margin: 23px 29px 27px 29px;color: #ffffff;background: url(images/subnewsline.png) no-repeat bottom left;padding-bottom: 25px;text-align: left;}
 #maineditorial_text{color: #ffffff;margin: 0 29px 0 29px;display: inline-block;font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;text-align: left;}
 #maineditorial_more{border: 1px solid #726171;border-bottom: transparent;  bottom: 0;left: 0;right: 0;margin: 0 auto;z-index: 2;display: inline-block;position: absolute;width: 60%;height: 42px;line-height: 42px;text-transform: uppercase;color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-decoration: none;}
 #weekom_banner{float: left;clear: left;margin-top: 14px;}
-#weekombanner{float: left;}
+#weekombanner{float: left;width:calc(100% - 477px);}
 #weekomcomedit_column{float: left;width: calc(100% - 236px);}
 #maineditorial_column{float: right;width: 236px;}
 #mainallnews{margin-top: 0px;float: left;}
