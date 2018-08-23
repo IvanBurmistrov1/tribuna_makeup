@@ -633,8 +633,20 @@ footer #footer_container {
     #comentarii_block_list {
         width: 100%;
     }
+    #comentarii_block_list #pagination_com{
+        justify-content: center;
+    }
+    #comentarii_block_list #pagination_com .alignright a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #comentarii_block_list #pagination_com .alignleft a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-    #comentarii_block_list #pagination_com {
+
+  /*  #comentarii_block_list #pagination_com {
         width: 100%;
     }
 
@@ -648,7 +660,7 @@ footer #footer_container {
         float: none;
 
     }
-
+*/
     #comentarii_block_list ul li {
         padding-right: 0;
     }
@@ -721,6 +733,9 @@ footer #footer_container {
 }
 
 @media screen and (min-width: 991px) and (max-width: 1279px){
+    #single_article_h1{
+        font-size: 32px;
+    }
     #slider_wrapper{
         width: calc(100% - 153px);
         margin-right: -24px;
@@ -755,16 +770,42 @@ footer #footer_container {
 }
 
 @media screen and (min-width: 768px ) and (max-width: 991px) {
+    #single_article_h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
     #single_article_content, #single_article_h1 {
         padding-left: 25px;
         padding-right: 25px;
     }
+    #interviu_block_first_header a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #interviu_block_first img{
+        width: 280px;
+    }
+   /* #interviu_block_first_text{
+        font-size: 1px;
+    }
+    #interviu_block_first_header span{
+        font-size: 14px;
+    }*/
     #maininterviu{
         width: 50%;
     }
     #maintop{
         width: 50%;
 
+    }
+    #editorial_block_first_header{
+        width: 370px;
+    }
+    #editorial_block_first_header a{
+        font-size: 20px;
+    }
+    #editorial_block_first_text{
+        width: calc(100% - 370px);
     }
 
     #footer_logosocial {
@@ -795,7 +836,9 @@ footer #footer_container {
     /*#interviu_block_first{*/
     /*height: 288px;*/
     /*}*/
-
+    #slider_wrapper .cycle-overlay a{
+        font-size: 22px;
+    }
 
 }
 
@@ -836,22 +879,21 @@ footer #footer_container {
         flex-direction: column;
         align-content: stretch;
         flex-wrap: nowrap;
-
     }
 
     #interviu_block_first_header {
         flex-basis: auto;
-
     }
 
     #interviu_block_first_text {
         flex-basis: auto;
-
     }
 
     #interviu_block_first_text {
         margin-top: 15px;
     }
+
+
     #slider_wrapper{
         width: calc(100% + 48px);
         margin-right: -24px;
@@ -863,7 +905,6 @@ footer #footer_container {
         min-height: 100px;
     }
     #slider_wrapper .cycle-overlay a {
-
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 24px;
@@ -880,7 +921,6 @@ footer #footer_container {
         float: left;
         margin-left: 24px;
         margin-top: 24px;
-
     }
     #slider_wrapper .slideitem .slider_text{
         position: absolute;
@@ -893,9 +933,7 @@ footer #footer_container {
         margin-top: 0px;
     }
     #top_news .top_news_item table tr td:first-child{
-
         padding-left: 0px;
-
     }
     #top_news_header{
         padding-left: 0px;
@@ -907,7 +945,6 @@ footer #footer_container {
 
     #maininterviu{
         background: #5b2a51;
-
     }
     #maininterviu_title{
         width: 60%;
@@ -917,9 +954,7 @@ footer #footer_container {
     #maininterviu_shadow{
         z-index: 1;
     }
-    #mainweekom{
-        background: #5b2a51;
-    }
+
     #mainweekom_shadow{
         z-index: 1;
     }
@@ -937,15 +972,70 @@ footer #footer_container {
         padding-left: 0px;
         padding-right: 0px;
     }
-
+    #single_article_h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    #single_article_featuredimage img{
+        height: 320px;
+    }
+    #single_article_content{
+        font-size: 14px;
+        line-height: 24px;
+    }
     #similar_articles_head {
         margin-top: 30px;
         margin-bottom: 25px;
         text-align: center;
         width: 100%;
         padding-right: 0px;
+        font-size: 20px;
+    }
+    #comentarii_block_header{
+        font-size:22px;
+    }
+    #interviu_block_first_header a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #interviu_block_first_text{
+        font-size: 14px;
+    }
+    #interviu_block_first_header span{
+        font-size: 14px;
     }
 
+    #editorial_block_first_header{
+        width: 100%;
+        float: none;
+
+    }
+    #editorial_block_first_header a,#editorial_block_first_header span{
+        font-size: 14px;
+    }
+    #editorial_block_first_text{
+        padding-left: 113px;
+        width: 100%;
+        margin-top: 24px;
+        float: none;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #first_ratings .rating_block_first .rating_block_first_title{
+        line-height: 24px;
+        font-size: 16px;
+    }
+    #first_ratings .rating_block_first .rating_block_first_date{
+        font-size: 14px;
+    }
+    #comentarii_block_list ul li a{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #comentarii_block_list ul li span{
+        font-size: 14px;
+    }
     #similar_articles_grid {
         width: 100%;
     }
@@ -956,6 +1046,12 @@ footer #footer_container {
 
     #mainallnews ul.posts_list li {
         padding-right: 0px;
+    }
+    #mainallnews_header{
+        font-size: 20px;
+    }
+    .mainallnews_title{
+        font-size: 16px;
     }
 
     #politicaonline_on_small {
@@ -1050,10 +1146,17 @@ footer #footer_container {
     }
 
     #stiri_block_first_title {
-
+        font-size: 16px;
+        line-height: 24px;
         margin-top: 0px;
     }
-
+    #stiri_block_first_text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #stiri_block_first_footer_date{
+        font-size: 14px;
+    }
     #interviu_block_list .column {
         width: 50%;
     }
@@ -1104,12 +1207,25 @@ footer #footer_container {
         width: 100%;
     }
     #maintop{
-        margin-top: 15px;
+        margin-top: 10px;
+        min-height: 160px;
+        height: auto;
+    }
+    #maintop_number{
+        top:0;
     }
     #maincomentarii{
-        min-height: 194px;
+        min-height: 160px;
         text-align: center;
 
+    }
+    #mainweekom,#maininterviu{
+        height: 160px;
+    }
+
+
+    #mainweekom_title,#maininterviu_title{
+        font-size: 16px;
     }
     #maineditorial_column{
         width: 100%;
@@ -1137,30 +1253,27 @@ footer #footer_container {
     #maincomentarii_readmore{
         margin-left: auto;
         margin-right: auto;
-
-
-       /* position the top  edge of the element at the middle of the parent */
+        /* position the top  edge of the element at the middle of the parent */
         left: 50%; /* position the left edge of the element at the middle of the parent */
-
         transform: translate(-50%, 0);
     }
     #maineditorial_text{
         text-align: center;
     }
-
+    #slider_wrapper .cycle-overlay a{
+        font-size: 16px;
+    }
 
 }
 
 @media screen and (min-width: 768px) {
     #footernavcopy {
         width: calc(100% - 335px);
-
     }
 
     #footer_searchnav {
         width: 335px;
     }
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -1184,6 +1297,11 @@ footer #footer_container {
         margin: 0 auto;
     }
 
+}
+@media screen and (max-width: 479px){
+    #editorial_block_first_text{
+        padding-left: 0px;
+    }
 }
 
 
