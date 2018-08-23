@@ -737,7 +737,7 @@ footer #footer_container {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     #blogosfera_on_small {
         padding-left: 18px !important;
     }
