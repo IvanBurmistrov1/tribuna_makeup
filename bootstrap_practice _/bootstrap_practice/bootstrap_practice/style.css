@@ -72,14 +72,15 @@ body{margin: 0}
 #slider_wrapper .slideitem {
     width: 100%;
     height: 400px;
-
 }
 #slider_wrapper .slideitem img{
     width: 100%;
     height: 400px;
     object-fit: cover;
 }
+
 /*#slider_wrapper .slideitem:after{display: block;position: absolute;height: 100%;!*width: 368px;*!background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;z-index: 100;}*/
+#slider_wrapper .slideitem:after{display: block;position: absolute;height: 100%;width: 368px;*!background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;z-index: 100;}
 #slider_wrapper  .cycle-overlay .slidecatname{float: right;clear: right; background: #333333;padding: 7px 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;    margin: 60px 60px 0 0;}
 #slider_wrapper  .cycle-overlay a{clear: left;float: left;font-size: 26px;text-transform: uppercase; font-family: Circe_bold,Arial,Georgia,Tahoma!important; /*text-transform: uppercase;*/color: #ffffff;margin: 10px 0 0 12px;    display: block;width: calc(100% - 200px)}
 #slider_wrapper .slideitem .slider_text{position: absolute;right: 25px;top: 135px;width: 255px;color: #ffffff;font-size: 20px;font-family: Circe,Arial,Georgia,Tahoma!important;z-index: 105;padding-bottom: 77px;}
@@ -197,6 +198,7 @@ body{margin: 0}
 #mainallnews ul.posts_list li{margin-bottom: 20px;width: 100%;padding-right: 20px;}
 #mainallnews ul.posts_list li:last-child{margin-bottom: 0px;}
 #mainallnews ul.posts_list div.thumb{  float: left;display: inline;width: 173px;margin-right: 18px;text-align: center;}
+#mainallnews ul.posts_list div.thumb img{width: 100%;}
 #mainallnews ul.posts_list div.description {overflow: hidden;}
 #mainallnews ul.posts_list div.description a{display: inline-block;}
 .mainallnews_title{color: #2c2e35;font-size: 20px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 22px;margin-bottom: 18px;clear: both;display: block!important;}
@@ -223,9 +225,9 @@ body{margin: 0}
 
 #comentarii_block{width: 100%;float: left;}
 #comentarii_block_header{width: 100%;display: inline-block;text-align: center;font-size: 32px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;margin: 17px 0 32px 0;}
-#comentarii_block_first{width: 100%;background: #c2beb6 url(images/comentariiquote.png) no-repeat 37px 46px;padding: 34px 100px 34px 136px;min-height: 190px;position: relative;}
-#comentarii_block_first_title{width: 100%;display: inline-block;font-size: 26px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;color: #32343a;text-decoration: none;}
-#comentarii_block_first_date{font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;color: #32343a;}
+#comentarii_block_first{width: 100%;background: #c2beb6 url(images/comentariiquote.png) no-repeat 37px 46px;padding: 34px 100px 42px 136px;min-height: 190px;position: relative;}
+#comentarii_block_first_title{width: 100%;display: inline-block;font-size: 26px;line-height: 30px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;color: #32343a;text-decoration: none;text-transform: uppercase}
+#comentarii_block_first_date{margin-top:20px;display: block; margin-bottom:25px;font-size: 16px;font-family: Circe,Arial,Georgia,Tahoma!important;color: #32343a;}
 #comentarii_block_first_readmore{color: #ffffff;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 42px;display: inline-block;float: left;clear: both;background: #663366;text-transform: uppercase;padding: 0 25px;text-decoration: none;position: absolute;bottom: 0;left: 136px;}
 #comentarii_block_banner{float: left;width: 139px;height: 596px;background: #cecece;margin-top: 38px;}
 #comentarii_block_list{float: right;width: calc(100% - 139px);margin-top: 22px;}
@@ -242,12 +244,17 @@ body{margin: 0}
 #contacts_header{float: left;width: 100%;}
 #contacts_header h1{font-size: 43.01px;text-transform: uppercase;display: inline-block;text-align: center;width: 100%;font-family: Circe_bold,Arial,Georgia,Tahoma!important;margin: 40px 0 37px 0;}
 #contacts_header h3{display: inline-block;width: 100%;text-align: center;font-family: Circe,Arial,Georgia,Tahoma!important;font-size: 18px;margin-top: 0;}
-#contacts_block{float: left;width: 100%;border-bottom: 1px solid #cecece;border-top: 1px solid #cecece;padding: 35px 35px 35px 50px;}
-#contacts_block ol{display: block;float: left;width: 550px;display: block;padding: 0 0 0 40px;list-style: none;overflow: hidden;counter-reset: numList;}
+#contacts_block{float: left;width: 100%;border-bottom: 1px solid #cecece;border-top: 1px solid #cecece;padding: 35px 35px 0 50px;}
+#contacts_block ol{display: block;float: left;width: 100%;display: block;padding: 0 0 0 40px;list-style: none;overflow: hidden;counter-reset: numList;}
 #contacts_block ol li{position: relative;line-height: 30px;display: inline-block;width: 100%;margin-bottom: 40px;font-size: 18px;font-family: Circe,Arial,Georgia,Tahoma!important;}
 #contacts_block ol li:before{counter-increment: numList;content: counter(numList);float: left;position: absolute;left: -40px;text-align: center;color: #fff;line-height: 28px;width: 28px; height: 28px;background: url(images/contactscircle.png) no-repeat center;-moz-border-radius: 999px;border-radius: 999px;font-size: 18px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;}
 #contacts_block ol li strong{font-size: 18px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;}
-#contacts_fbblock{float: right;width: 236px;height: 350px;}
+#contacts_block_contacts{
+    width: calc(100% - 253px);
+    float: left;
+}
+#contacts_fbblock{float: right;width: 236px;}
+#contacts_fbblock #mainfacebook{margin-top: 0px;}
 #editorial_block_first{width: 100%;background: url(images/editorialfirst.png);background-size:100%;padding: 30px 25px 30px 30px;min-height: 190px;position: relative;}
 #editorial_block_first_header{float:left;width:450px;padding-left: 15px;background: url(images/editorialfirstlogo.png) no-repeat top left;min-height: 76px;padding-left: 113px; }
 #editorial_block_first_header a{font-size: 26px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;color: #ffffff;text-decoration: none;display: inline-block;background: url(images/subnewsline.png) no-repeat left bottom;padding-bottom: 24px;}
@@ -283,7 +290,7 @@ body{margin: 0}
 #single_article{width: 100%;font-size: 18px;font-family: Circe,Arial,Georgia,Tahoma!important;}
 #single_article_header{width: 100%;text-align: center;margin-top: 23px;}
 #single_article_header .allnews_catname {background: #999999;padding: 0 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;line-height: 22px;display: inline-block;text-decoration: none;color: #ffffff;margin-right: 10px;}
-#single_article_date{font-size: 14px;font-family: Circe,Arial,Georgia,Tahoma!important;line-height: 22px;}
+#single_article_date{font-size: 18px;font-family: Circe,Arial,Georgia,Tahoma!important;line-height: 22px;}
 #single_article_h1{width: 100%;text-align: center;font-size: 43px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;line-height: 48px;text-transform: uppercase;padding: 0 90px;}
 #single_article_featuredimage{width: 100%;text-align: center;margin-top: 30px;margin-bottom: 35px;}
 #single_article_featuredimage img{width: 100%;text-align: center;max-height: 400px;object-fit: cover;}

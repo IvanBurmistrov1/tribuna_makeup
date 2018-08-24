@@ -229,6 +229,11 @@ footer #footer_container {
         margin-left: 24px;
         margin-right: 24px;
     }
+    #contacts_block{
+        padding-left: 0;
+        padding-right: 0;
+
+    }
 }
 
 #politicaonline_on_small {
@@ -753,6 +758,10 @@ footer #footer_container {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    #comentarii_block_header{
+        font-size: 30px;
+    }
+
     #blogosfera_on_small {
         padding-left: 18px !important;
     }
@@ -774,8 +783,9 @@ footer #footer_container {
         font-size: 32px;
         line-height: 42px;
     }
+
     #single_article_content, #single_article_h1 {
-        padding-left: 25px;
+        padding-left: 50px;
         padding-right: 25px;
     }
     #interviu_block_first_header a{
@@ -807,7 +817,9 @@ footer #footer_container {
     #editorial_block_first_text{
         width: calc(100% - 370px);
     }
-
+    #comentarii_block_first_title{
+        font-size: 20px;
+    }
     #footer_logosocial {
         margin-right: 45px;
     }
@@ -968,7 +980,42 @@ footer #footer_container {
 }
 
 @media screen and (max-width: 767px) {
-    #single_article_content, #single_article_h1 {
+    #contacts_block {
+        padding-bottom: 35px;
+    }
+    #contacts_block_contacts{
+        float: none;
+    }
+    #contacts_fbblock{
+        width: 100%;
+
+    }
+    #contacts_fbblock #mainfacebook{
+        margin: 0 auto;
+        width: 237px;
+        float: none;
+        border-right: solid 1px #cccccc;
+
+    }
+    #contacts_block_contacts{
+        width: 100%;
+    }
+    #contacts_block ol li strong{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #contacts_block ol li{
+        line-height: 26px;
+        font-size: 16px;
+    }
+    #single_article_date{
+        font-size:14px;
+    }
+    #single_article_content{
+        padding-left: 25px;
+        padding-right: 0px;
+    }
+     #single_article_h1 {
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -993,6 +1040,15 @@ footer #footer_container {
     }
     #comentarii_block_header{
         font-size:22px;
+    }
+    #comentarii_block_first_title{
+        font-size: 16px;
+    }
+    #comentarii_block_first_date{
+        font-size: 14px;
+    }
+    #comentarii_block_first{
+        padding-right: 34px;
     }
     #interviu_block_first_header a{
         font-size: 16px;
@@ -1199,7 +1255,7 @@ footer #footer_container {
     }
 
     #top_news .top_news_item{
-        width: 49%;
+        width: 50%;
         float: left;
         padding-right: 12px;
     }
@@ -1298,9 +1354,46 @@ footer #footer_container {
     }
 
 }
-@media screen and (max-width: 479px){
-    #editorial_block_first_text{
-        padding-left: 0px;
+@media screen and (max-width: 420px){
+    /*    #editorial_block_first_text{
+          padding-left: 0px;
+      }
+
+      #mainallnews ul.posts_list div.thumb{
+           width: calc(40% - 10px);
+          margin-right: 10px;
+      }
+      #mainallnews ul.posts_list div.description{
+          width: 60%;
+      }*/
+    #mainallnews ul.posts_list div.thumb{
+        width: 100%;
+        float: none;
+    }
+
+    #mainallnews ul.posts_list div.description{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #top_news .top_news_item{
+        width: 100%;
+    }
+
+    #blogosfera_col_on_small .politica_blogosfera_tabs{
+        display: none;
+    }
+    #blogosfera_col_on_small .politica_blogosfera_tabs_content{
+        width: 100%;
+    }
+    #footer_searchnav input[type="text"]{
+        width: 100%;
+    }
+    #footer_logosocial{
+        margin-left: 20px;
+    }
+    #footer_content{
+        width: calc(100% - 89px);
     }
 }
 
