@@ -14,8 +14,8 @@
       <file leaf-file-name="tribuna_main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="1464" column="54" lean-forward="true" selection-start-line="1464" selection-start-column="54" selection-end-line="1464" selection-end-column="54" />
+            <state relative-caret-position="221">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="tribuna_stiri.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_stiri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="560" column="95" selection-start-line="560" selection-start-column="95" selection-end-line="560" selection-end-column="95" />
+            <state relative-caret-position="51">
+              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -71,20 +71,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap_practice/style.css">
+      <file leaf-file-name="tribuna_editorial.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_editorial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428">
-              <caret line="93" column="24" selection-start-line="93" selection-end-line="93" selection-end-column="24" />
+            <state relative-caret-position="144">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap_practice/test.css">
+      <file leaf-file-name="style_adaptive.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap_practice/style_adaptive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="1379" column="20" lean-forward="true" selection-start-line="1379" selection-start-column="20" selection-end-line="1379" selection-end-column="20" />
+            <state relative-caret-position="262">
+              <caret line="2270" column="23" lean-forward="true" selection-start-line="2270" selection-start-column="23" selection-end-line="2270" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap_practice/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="283" column="46" lean-forward="true" selection-start-line="283" selection-start-column="46" selection-end-line="283" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tribuna_top.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_top.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -92,8 +114,8 @@
       <file leaf-file-name="text_plain.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap_practice/text_plain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3304">
-              <caret line="599" column="35" selection-start-line="599" selection-start-column="35" selection-end-line="599" selection-end-column="35" />
+            <state relative-caret-position="380">
+              <caret line="409" column="18" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
               <folding>
                 <element signature="e#33179#33185#1" expanded="true" />
                 <element signature="e#34995#35001#1" expanded="true" />
@@ -114,8 +136,8 @@
       <file leaf-file-name="tribuna_interviu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_interviu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3304">
-              <caret line="571" column="34" selection-start-line="571" selection-start-column="34" selection-end-line="571" selection-end-column="34" />
+            <state relative-caret-position="244">
+              <caret line="394" column="67" lean-forward="true" selection-start-line="394" selection-start-column="67" selection-end-line="394" selection-end-column="67" />
               <folding>
                 <element signature="e#29295#29301#1" expanded="true" />
                 <element signature="e#31112#31118#1" expanded="true" />
@@ -136,8 +158,8 @@
       <file leaf-file-name="tribuna_contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="786" column="68" selection-start-line="786" selection-start-column="68" selection-end-line="786" selection-end-column="68" />
+            <state relative-caret-position="159">
+              <caret line="488" column="19" lean-forward="true" selection-start-line="488" selection-start-column="19" selection-end-line="488" selection-end-column="19" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -148,6 +170,19 @@
                 <element signature="n#style#0;n#iframe#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap_practice/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,11 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maincomentarii</find>
-      <find>#mainwee</find>
-      <find>maintop</find>
-      <find>#slider_wrapper</find>
-      <find>cycle-</find>
       <find>.mainallnews_title</find>
       <find>mainin</find>
       <find>#similar_articles_head</find>
@@ -193,8 +223,13 @@
       <find>single_article_content</find>
       <find>#mainallnews ul.posts_list div.thumb</find>
       <find>#slider_wrapper .slideitem:after</find>
-      <find>&lt;a href=&quot;&quot; class=&quot;allnews_catname&quot;&gt;&lt;/a&gt;</find>
       <find>#top_news .top_news_item</find>
+      <find>#footer_searchnav</find>
+      <find>header_</find>
+      <find>#header_langs .bootstrap-select.btn-group .btn .filter-option{color: #ffffff;font-size: 14px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;}</find>
+      <find>blogosfera_col_on_small</find>
+      <find>&lt;a href=&quot;&quot; class=&quot;allnews_catname&quot;&gt;&lt;/a&gt;</find>
+      <find>interviu_block_first_content</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -216,7 +251,6 @@
         <option value="$PROJECT_DIR$/bootstrap_practice/bx4slider/jquery.bxslider.js" />
         <option value="$PROJECT_DIR$/bootstrap_practice/index.html" />
         <option value="$PROJECT_DIR$/bootstrap_practice/uploads/tribuna_interviu.html" />
-        <option value="$PROJECT_DIR$/bootstrap_practice/js/scripts.js" />
         <option value="$PROJECT_DIR$/bootstrap_practice/sourse.html" />
         <option value="$PROJECT_DIR$/bootstrap_practice/test.html" />
         <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_contacts.html" />
@@ -224,11 +258,13 @@
         <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_editorial.html" />
         <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_comentarii.html" />
         <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_interviu.html" />
-        <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_top.html" />
-        <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_stiri.html" />
-        <option value="$PROJECT_DIR$/bootstrap_practice/style.css" />
         <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_main.html" />
         <option value="$PROJECT_DIR$/bootstrap_practice/test.css" />
+        <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_stiri.html" />
+        <option value="$PROJECT_DIR$/bootstrap_practice/tribuna_top.html" />
+        <option value="$PROJECT_DIR$/bootstrap_practice/js/scripts.js" />
+        <option value="$PROJECT_DIR$/bootstrap_practice/style_adaptive.css" />
+        <option value="$PROJECT_DIR$/bootstrap_practice/style.css" />
       </list>
     </option>
   </component>
@@ -244,7 +280,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="108" />
     <option name="width" value="1260" />
@@ -266,6 +302,12 @@
               <item name="bootstrap_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootstrap_practice" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootstrap_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootstrap_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,27 +403,28 @@
       <workItem from="1534852940508" duration="1933000" />
       <workItem from="1534856930299" duration="36176000" />
       <workItem from="1535004847659" duration="561000" />
-      <workItem from="1535008112424" duration="51053000" />
+      <workItem from="1535008112424" duration="68828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416099000" />
+    <option name="totallyTimeSpent" value="433874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48503938" visible="true" weight="0.30380672" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.51496065" side_tool="true" visible="true" weight="0.30380672" />
       <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48188975" visible="true" weight="0.30307466" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.503937" />
+      <window_info id="Structure" order="1" sideWeight="0.5181102" side_tool="true" visible="true" weight="0.30307466" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -390,29 +433,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48976377" visible="true" weight="0.18448023" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5102362" side_tool="true" visible="true" weight="0.18448023" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -448,7 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/test.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/style_adaptive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
@@ -463,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/test.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/style_adaptive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
@@ -471,7 +492,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_practice/index.html" />
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/test.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/style_adaptive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
@@ -589,13 +610,6 @@
     <entry file="file://$PROJECT_DIR$/bootstrap_practice/images/main_interviu_shadow.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_practice/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -604,106 +618,6 @@
             <element signature="e#2006#2012#0" expanded="true" />
             <element signature="e#2362#2368#0" expanded="true" />
             <element signature="e#2368#2374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="786" column="68" selection-start-line="786" selection-start-column="68" selection-end-line="786" selection-end-column="68" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/text_plain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3304">
-          <caret line="599" column="35" selection-start-line="599" selection-start-column="35" selection-end-line="599" selection-end-column="35" />
-          <folding>
-            <element signature="e#33179#33185#1" expanded="true" />
-            <element signature="e#34995#35001#1" expanded="true" />
-            <element signature="e#36797#36803#1" expanded="true" />
-            <element signature="e#38003#38009#0" expanded="true" />
-            <element signature="e#38637#38643#1" expanded="true" />
-            <element signature="e#40402#40408#1" expanded="true" />
-            <element signature="e#42182#42188#1" expanded="true" />
-            <element signature="e#43427#43433#0" expanded="true" />
-            <element signature="e#43845#43850#0" expanded="true" />
-            <element signature="e#44238#44244#1" expanded="true" />
-            <element signature="e#46164#46170#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_interviu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3304">
-          <caret line="571" column="34" selection-start-line="571" selection-start-column="34" selection-end-line="571" selection-end-column="34" />
-          <folding>
-            <element signature="e#29295#29301#1" expanded="true" />
-            <element signature="e#31112#31118#1" expanded="true" />
-            <element signature="e#32915#32921#1" expanded="true" />
-            <element signature="e#34121#34127#0" expanded="true" />
-            <element signature="e#34756#34762#1" expanded="true" />
-            <element signature="e#36522#36528#1" expanded="true" />
-            <element signature="e#38303#38309#1" expanded="true" />
-            <element signature="e#39548#39554#0" expanded="true" />
-            <element signature="e#39967#39972#0" expanded="true" />
-            <element signature="e#40360#40366#1" expanded="true" />
-            <element signature="e#42287#42293#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_editorial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="146" column="6" lean-forward="true" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#58285#58291#1" expanded="true" />
-            <element signature="e#60101#60107#1" expanded="true" />
-            <element signature="e#61903#61909#1" expanded="true" />
-            <element signature="e#63109#63115#0" expanded="true" />
-            <element signature="e#63743#63749#1" expanded="true" />
-            <element signature="e#65508#65514#1" expanded="true" />
-            <element signature="e#67288#67294#1" expanded="true" />
-            <element signature="e#68533#68539#0" expanded="true" />
-            <element signature="e#68951#68956#0" expanded="true" />
-            <element signature="e#69344#69350#1" expanded="true" />
-            <element signature="e#71270#71276#1" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="840" column="34" lean-forward="true" selection-start-line="840" selection-start-column="34" selection-end-line="840" selection-end-column="34" />
-          <folding>
-            <element signature="e#59435#59441#1" expanded="true" />
-            <element signature="e#61252#61258#1" expanded="true" />
-            <element signature="e#63055#63061#1" expanded="true" />
-            <element signature="e#64261#64267#0" expanded="true" />
-            <element signature="e#64896#64902#1" expanded="true" />
-            <element signature="e#66662#66668#1" expanded="true" />
-            <element signature="e#68443#68449#1" expanded="true" />
-            <element signature="e#69688#69694#0" expanded="true" />
-            <element signature="e#70107#70112#0" expanded="true" />
-            <element signature="e#70500#70506#1" expanded="true" />
-            <element signature="e#72427#72433#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,10 +647,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="488" column="19" lean-forward="true" selection-start-line="488" selection-start-column="19" selection-end-line="488" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ol#0;n#div#0;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#article#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/text_plain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="409" column="18" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
+          <folding>
+            <element signature="e#33179#33185#1" expanded="true" />
+            <element signature="e#34995#35001#1" expanded="true" />
+            <element signature="e#36797#36803#1" expanded="true" />
+            <element signature="e#38003#38009#0" expanded="true" />
+            <element signature="e#38637#38643#1" expanded="true" />
+            <element signature="e#40402#40408#1" expanded="true" />
+            <element signature="e#42182#42188#1" expanded="true" />
+            <element signature="e#43427#43433#0" expanded="true" />
+            <element signature="e#43845#43850#0" expanded="true" />
+            <element signature="e#44238#44244#1" expanded="true" />
+            <element signature="e#46164#46170#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_editorial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_stiri.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="560" column="95" selection-start-line="560" selection-start-column="95" selection-end-line="560" selection-end-column="95" />
+        <state relative-caret-position="51">
+          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -758,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="1464" column="54" lean-forward="true" selection-start-line="1464" selection-start-column="54" selection-end-line="1464" selection-end-column="54" />
+        <state relative-caret-position="221">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -789,17 +770,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/style.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/tribuna_interviu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
-          <caret line="93" column="24" selection-start-line="93" selection-end-line="93" selection-end-column="24" />
+        <state relative-caret-position="244">
+          <caret line="394" column="67" lean-forward="true" selection-start-line="394" selection-start-column="67" selection-end-line="394" selection-end-column="67" />
+          <folding>
+            <element signature="e#29295#29301#1" expanded="true" />
+            <element signature="e#31112#31118#1" expanded="true" />
+            <element signature="e#32915#32921#1" expanded="true" />
+            <element signature="e#34121#34127#0" expanded="true" />
+            <element signature="e#34756#34762#1" expanded="true" />
+            <element signature="e#36522#36528#1" expanded="true" />
+            <element signature="e#38303#38309#1" expanded="true" />
+            <element signature="e#39548#39554#0" expanded="true" />
+            <element signature="e#39967#39972#0" expanded="true" />
+            <element signature="e#40360#40366#1" expanded="true" />
+            <element signature="e#42287#42293#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap_practice/test.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/style_adaptive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1379" column="20" lean-forward="true" selection-start-line="1379" selection-start-column="20" selection-end-line="1379" selection-end-column="20" />
+        <state relative-caret-position="262">
+          <caret line="2270" column="23" lean-forward="true" selection-start-line="2270" selection-start-column="23" selection-end-line="2270" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_practice/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="283" column="46" lean-forward="true" selection-start-line="283" selection-start-column="46" selection-end-line="283" selection-end-column="46" />
         </state>
       </provider>
     </entry>
