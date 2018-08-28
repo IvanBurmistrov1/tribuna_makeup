@@ -97,6 +97,7 @@ footer #footer_container {
     border: 1px solid #35373e;
     background: none;
     line-height: 35px;
+    height: 35px;
     padding: 0 13px;
     width: 260px;
     float: right;
@@ -997,6 +998,7 @@ footer #footer_container {
         align-content: stretch;
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+
     }
 
     #interviu_block_first_header {
@@ -1880,7 +1882,7 @@ footer #footer_container {
     }
 
     #single_comments, #mainallnews {
-        width: calc(100% - 236px);
+        /*width: calc(100% - 236px);*/
         float: left;
     }
 
@@ -2623,6 +2625,7 @@ footer #footer_container {
             -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
             order: 2;
+            width: 100%!important;
         }
 
         #mainallnews .navigation {
@@ -2837,6 +2840,7 @@ footer #footer_container {
         -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
         order: 2;
+        width: 100%;
     }
 
     #mainallnews .navigation {
