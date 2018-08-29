@@ -145,7 +145,17 @@ footer #footer_container {
 }
 
 /*------------------------------------------------------*/
+#top_article_content{
+    padding: 0 90px;
+}
+#top_article_content p:first-child{
+    text-align: center;
+    color: #7f7d78;
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
 
+}
 #header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -626,6 +636,7 @@ footer #footer_container {
     -webkit-box-shadow: none;
 }
 
+
 .next_arr {
     position: absolute;
     bottom: -30px;
@@ -786,10 +797,6 @@ footer #footer_container {
 
         width: 100%;
         height: auto;
-
-
-
-
     }
 
     #breaking_news a {
@@ -1500,7 +1507,9 @@ footer #footer_container {
     #top_news .top_news_item{
         width: 100%;
     }
-
+    #editorial_block_first_text{
+        padding-left: 0;
+    }
     #blogosfera_col_on_small .politica_blogosfera_tabs{
         display: none;
     }
@@ -1515,5 +1524,10 @@ footer #footer_container {
     }
     #footer_content{
         width: calc(100% - 89px);
+    }
+
+    #interviu_block_list .column{
+        width: 100%;
+
     }
 }
