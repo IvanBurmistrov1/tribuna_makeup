@@ -43,6 +43,11 @@ $(document).ready(function () {
                     $(".header_additional_options_block ").removeClass("header_additional_options_vetical");
                 }
             }
+            if (window.matchMedia('screen and (max-width: 420px)').matches){
+                if (!$(".header_additional_options_block ").hasClass("header_additional_options_vetical")) {
+                    $(".header_additional_options_block ").addClass("header_additional_options_vetical");
+                }
+            }
         }
 
         addAfter();

@@ -61,7 +61,7 @@ body{margin: 0}
 #slider_wrapper{margin-top: 100px; width: calc(100% - 177px);float: right;position: relative;margin-left: 25px;height: 600px;margin-top: 00px;}
 #container{width: 1280px;margin: 0 auto;}
 #maincolumn{float: left;width: calc(100% - 392px);overflow: visible;}
-.cycle-overlay{position: absolute;top: 0px;width: calc( 100% + 177px);min-height: 100px;background:  url(images/slidetitlebg.png)  repeat-y;background-position:left;background-size: contain;right: 0;color: #ffffff;}
+.cycle-overlay{position: absolute;top: 0px;width: calc( 100% + 177px);min-height: 100px;background:  url(images/slidetitlebg.png)  repeat-y;background-position:left;background-size: contain;right: 0;color: #ffffff;z-index: 101;}
 .cycle-overlay:before{position: absolute;right: 100%;top: 0; width: 20000px;height: 100%; background: #24252b;content: "";}
 .slide_controls{position: absolute;top:15px;right: 27px;z-index: 101;}
 #slider_wrapper .slide_controls .prevControl{display: inline-block;float: left;width: 51px;height: 34px;background: url(images/sliderprev.png) no-repeat;cursor: pointer;}
@@ -81,10 +81,10 @@ body{margin: 0}
 }
 
 /*#slider_wrapper .slideitem:after{display: block;position: absolute;height: 100%;!*width: 368px;*!background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;z-index: 100;}*/
-#slider_wrapper .slideitem:after{display: block;position: absolute;height: 100%;width: 368px;*!background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;z-index: 100;}
+#slider_wrapper .slideitem:after{display: block;z-index:50;position: absolute;height: 100%;width: 368px;background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;}
 #slider_wrapper  .cycle-overlay .slidecatname{float: right;clear: right; background: #333333;padding: 7px 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;    margin: 60px 60px 0 0;}
-#slider_wrapper  .cycle-overlay a{clear: left;float: left;font-size: 26px;text-transform: uppercase; font-family: Circe_bold,Arial,Georgia,Tahoma!important; /*text-transform: uppercase;*/color: #ffffff;margin: 10px 0 0 12px;    display: block;width: calc(100% - 200px)}
-#slider_wrapper .slideitem .slider_text{position: absolute;right: 25px;top: 135px;width: 255px;color: #ffffff;font-size: 20px;font-family: Circe,Arial,Georgia,Tahoma!important;z-index: 105;padding-bottom: 77px;}
+#slider_wrapper  .cycle-overlay a{clear: left;float: left;font-size: 26px; font-family: Circe_bold,Arial,Georgia,Tahoma!important; /*text-transform: uppercase;*/color: #ffffff;margin: 10px 0 0 12px;    display: block;width: calc(100% - 200px)}
+#slider_wrapper .slideitem .slider_text{position: absolute;right: 25px;bottom: 42px;width: 255px;color: #ffffff;font-size: 20px;font-family: Circe,Arial,Georgia,Tahoma!important;z-index: 105;padding-bottom: 77px;}
 #slider_wrapper .slideitem .slider_text .slideitem_more{bottom: 0;position: absolute;display: block;border: 1px solid rgba(255, 255, 255, 0.27);line-height: 42px;padding: 0 24px;text-transform: uppercase;color: #ffffff;font-size: 14px;font-family: Circe,Arial,Georgia,Tahoma!important;text-decoration: none;}
 #top_news{float: left;width: 152px;margin: 100px 0 0 0;position: relative;}
 #top_news .top_news_item{width: 100%;display: block;margin-bottom: 28px;}
@@ -261,6 +261,92 @@ body{margin: 0}
     width: calc(100% - 253px);
     float: left;
 }
+#top_article_content {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+#top_article_content{
+    padding: 0 50px;
+}
+#single_top_article p:first-child{
+    text-align: center;
+    color: #7f7d78;
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#top_article_content p:first-child{
+    text-align: center;
+    color: #7f7d78;
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#top_article_content ol{display: block;float: left;width: 100%;display: block;padding: 30px 0 0 40px;list-style: none;overflow: hidden;counter-reset: numList;}
+#top_article_content ol li{position: relative;line-height: 30px;display: inline-block;width: 100%;margin-bottom: 40px;font-size: 18px;font-family: Circe,Arial,Georgia,Tahoma!important;}
+#top_article_content ol li:last-child{
+    margin-bottom: 20px;
+}
+#top_article_content ol li:before{counter-increment: numList;content: counter(numList);float: left;position: absolute;left: -40px;text-align: center;color: #fff;line-height: 28px;width: 28px; height: 28px;background: url(images/contactscircle.png) no-repeat center;border-radius: 999px;font-size: 18px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;}
+#top_article_content ol li strong{display:block;font-size: 18px;font-family: Circe_bold,Arial,Georgia,Tahoma!important;text-transform: uppercase;}
+#similar_top_articles{
+    padding-top: 28px;
+    /*padding-bottom: 28px;*/
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#similar_top_articles_head{
+    width: 194px;
+    float: left;
+    color: #2c2e35;
+    font-family: Circe_bold,Arial,Georgia,Tahoma!important;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+#similar_top_articles_list{
+    width: calc(100% - 194px);
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#similar_top_articles_list li{
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#similar_top_articles_list li:first-child{
+    padding-top: 0px;
+}
+
+#similar_top_articles_list li:last-child{
+    border-bottom: none;
+}
+
+#similar_top_articles_list>li>a{
+    color: #333333;
+    font-size: 20px;
+    font-family: Circe_bold,Arial,Georgia,Tahoma!important;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    text-transform: uppercase;
+}
+#similar_top_articles_list>li>span{
+    display: inline-block;
+    color: #555555;
+    font-size: 16px;
+    font-family: Circe,Arial,Georgia,Tahoma!important;
+}
+
 #contacts_fbblock{float: right;width: 236px;}
 #contacts_fbblock #mainfacebook{margin-top: 0px;}
 #editorial_block_first{width: 100%;background: url(images/editorialfirst.png);background-size:100%;padding: 30px 25px 30px 30px;min-height: 190px;position: relative;}
