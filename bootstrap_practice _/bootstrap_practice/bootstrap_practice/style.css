@@ -30,6 +30,7 @@ Text Domain: Tribuna
     font-style: normal;
 }
 
+
 body{margin: 0}
 .both, .clear{clear: both;}
 .row{margin-right: auto!important;margin-left: auto!important;padding: 0!important;}
@@ -38,13 +39,15 @@ body{margin: 0}
 #header:after{position: absolute;right: 100%;top: 0; width: 20000px;height: 100%; background: url(images/headerbefore.png);content: "";}
 #header_logo{float: left;width: 216px;background: url(images/logo.png) no-repeat right;display: block;}
 #header>nav{float: left;}
-#header>nav>ul{float: left;font-size: 14px;font-family: Circe_bold,Arial,Georgia,Tahoma; margin: 0;padding: 0;list-style: none;line-height: 75px}
-#header>nav>ul>li{float: left;margin-left: 20px;text-transform: uppercase;}
-#header>nav>ul>li.current-menu-item a{background: #333333;padding: 0 10px;color: #d3bfcf;}
+#header>nav>ul{float: left;font-size: 14px;font-family: Circe_bold,Arial,Georgia,Tahoma; margin: 0;padding: 0 0 0 10px;list-style: none;line-height: 75px}
+#header>nav>ul>li{float: left;margin-left: 10px;margin-right: 10px;text-transform: uppercase;}
+#header>nav>ul>li.current-menu-item{margin-right: 0px;}
+#header>nav>ul>li.current-menu-item a{background: #333333;padding: 0 10px;color: #d3bfcf;margin-left: -10px;}
 #header>nav>ul>li>a{color: #ffffff;text-decoration: none}
 #header_msg{display: block;background: url(images/mail.png) no-repeat;display: block;width: 16px;height: 12px;float: left;margin: 32px 5px 0 0;}
 #header_search{float: left;width: 40px;height: 37px;margin-top: 23px;margin-right: 13px;cursor: pointer;position: relative;}
 #header_search.active{}
+
 #header_search_block{position: absolute;right: 0;top: 100%;background: #24252b;padding: 11px;display: none;z-index: 100;}
 #header_search_block_toggle{display: block;float: left;width: 100%;height: 100%;background: url(images/search.png) center 8px no-repeat;}
 #header_search_block_toggle.active{background: #24252b url(images/search.png) center 8px no-repeat;}
@@ -69,21 +72,12 @@ body{margin: 0}
 #slider_wrapper .slide_controls .slide-pager{float: left;}
 #slider_wrapper .slide_controls .slide-pager span{color: transparent;display: inline-block;width: 20px;height: 34px;background: url(images/sliderpage.png) no-repeat;margin-right: -7px;cursor: pointer;}
 #slider_wrapper .slide_controls .slide-pager span.cycle-pager-active{background: url(images/sliderpageactive.png) no-repeat;}
-#slider_wrapper .slideitem {
-    width: 100%;
-    height: 400px;
-}
-#slider_wrapper .slideitem img{
-    width: 100%;
-    height: 400px;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
+#slider_wrapper .slideitem { width: 100%; height: 400px;}
+#slider_wrapper .slideitem img{ width: 100%; height: 400px;-o-object-fit: cover;object-fit: cover;}
 /*#slider_wrapper .slideitem:after{display: block;position: absolute;height: 100%;!*width: 368px;*!background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;z-index: 100;}*/
-#slider_wrapper .slideitem:after{display: block;z-index:50;position: absolute;height: 100%;width: 368px;background: url(images/slidershadow.png) no-repeat;right: 0;content: "";top: 0;}
+#slider_wrapper .slideitem:after{display: block;z-index:50;position: absolute;height: 100%;width: 478px;background: url(images/slidershadow.png) no-repeat;   background-size: 100%;right: 0;content: "";top: 0;}
 #slider_wrapper  .cycle-overlay .slidecatname{float: right;clear: right; background: #333333;padding: 7px 8px;font-size: 12px;font-family: Circe_bold,Arial,Georgia,Tahoma!important; text-transform: uppercase;    margin: 60px 60px 0 0;}
-#slider_wrapper  .cycle-overlay a{clear: left;float: left;font-size: 26px; font-family: Circe_bold,Arial,Georgia,Tahoma!important; /*text-transform: uppercase;*/color: #ffffff;margin: 10px 0 0 12px;    display: block;width: calc(100% - 200px)}
+#slider_wrapper  .cycle-overlay a{/* text-transform: uppercase; */clear: left;float: left;font-size: 26px; font-family: Circe_bold,Arial,Georgia,Tahoma!important;color: #ffffff;margin: 10px 0 0 12px;    display: block;width: calc(100% - 200px)}
 #slider_wrapper .slideitem .slider_text{position: absolute;right: 25px;bottom: 42px;width: 255px;color: #ffffff;font-size: 20px;font-family: Circe,Arial,Georgia,Tahoma!important;z-index: 105;padding-bottom: 77px;}
 #slider_wrapper .slideitem .slider_text .slideitem_more{bottom: 0;position: absolute;display: block;border: 1px solid rgba(255, 255, 255, 0.27);line-height: 42px;padding: 0 24px;text-transform: uppercase;color: #ffffff;font-size: 14px;font-family: Circe,Arial,Georgia,Tahoma!important;text-decoration: none;}
 #top_news{float: left;width: 152px;margin: 100px 0 0 0;position: relative;}

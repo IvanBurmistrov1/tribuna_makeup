@@ -363,6 +363,11 @@ footer #footer_container {
     #politicaonline_on_small {
         padding-right: 0px;
     }
+
+    #maintop_title{
+        margin-bottom: 52px;
+    }
+
 }
 
 .container-fluid {
@@ -1658,7 +1663,10 @@ footer #footer_container {
         width: 100%;
     }
     .navbar-toggle{
-        padding-left: 0px;
+        /*padding-left: 0px;*/
         padding-right: 0px;
+    }
+    #maininterviu_title {
+        width: 70%;
     }
 }
